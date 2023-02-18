@@ -12,9 +12,8 @@ int main(void)
 	a = 0;
 	while (a < 10)
 	{
-		printf(a);
+		printf("%d\n", a);
 		a++;
 	}
-	printf('\n');
 	return (0);
 }
