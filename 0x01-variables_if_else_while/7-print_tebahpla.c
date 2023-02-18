@@ -9,8 +9,8 @@ int main(void)
 {
 	char x;
 
-	x = 'z';
-	while (x <= 'z')
+	x = 'a';
+	while (x >= 'a')
 	{
 		putchar(x);
 		x--;
