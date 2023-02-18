@@ -3,19 +3,16 @@
 /**
  * main - Entry point
  *
- * Result: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char x;
-	x = 'a';
 
-	while(x <= 'z')
-	{
+	x = 'a';
+	while (x <= 'z')
 		putchar(x);
 		x++;
-	}
-	putchar('\n');
+	putchar ('\n');
 	return (0);
 }
