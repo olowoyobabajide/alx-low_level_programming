@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char a;
+	int a;
 
 	a = 0;
 	while (a < 10)
 	{
-		putchar(a);
+		printf(a);
 		a++;
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
