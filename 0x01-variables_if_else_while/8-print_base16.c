@@ -14,7 +14,7 @@ int main(void)
 	x = 'a';
 	while (a < 10)
 	{
-		printf("%d", a);
+		putchar(a + '0')
 		a++;
 	}
 	while (x <= 'f')
