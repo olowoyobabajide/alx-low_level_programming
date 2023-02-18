@@ -16,11 +16,11 @@ int main(void)
 		x++;
 			if (x == 'e')
 			{
-				continue
+				continue;
 			}
 			if (x == 'q')
 			{
-				continue
+				continue;
 			}
 	}
 	putchar('\n');
