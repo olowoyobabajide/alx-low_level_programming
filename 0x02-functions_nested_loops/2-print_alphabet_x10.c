@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10 - entry point
- *
- * Return 0 (Success)
+ * print_alphabet_x10 - entry point
+ * Return: 0 (Success)
  */
 void print_alphabet_x10(void)
 {
 	int x = 0;
 
-	while (x < 11)
+	while (x < 10)
 	{
 		char y = 'a';
 
@@ -18,9 +17,7 @@ void print_alphabet_x10(void)
 			_putchar(y);
 			y++;
 		}
-		
 		_putchar('\n');
 		x++;
 	}
-
 }
