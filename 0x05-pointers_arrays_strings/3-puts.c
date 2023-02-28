@@ -1,13 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * puts - prints characters with new line
+ * _puts - prints characters with new line
  * @str: string is checked
  * Return: Always 0
  */
 void _puts(char *str)
 {
-	_putchar("%c", *str);
-	return (0);
+	char *p;
+	int a;
+
+	p = str;
+	for (a = 0; p[a]; a++)
+	{
+		_putchar (p[a]);
+	}
 }
