@@ -1,6 +1,7 @@
 #include "main.h"
 
-/** _strcpy - entry point
+/**
+ * _strcpy - entry point
  * @dest: pointer
  * @src: pointer
  * Return: Always 0

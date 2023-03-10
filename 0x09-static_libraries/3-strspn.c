@@ -2,6 +2,7 @@
 
 /**
  * _strspn - entry point
+ * @s: pointer
  * @accept: pointer
  * Return: Always 0
  */
