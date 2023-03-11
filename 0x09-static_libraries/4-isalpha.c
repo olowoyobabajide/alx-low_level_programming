@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _strspn - entry point
- * @s: pointer
- * @accept: pointer
+ * _isalpha - entry point
+ * @c: char is checked
  * Return: Always 0
  */
-unsigned int _strspn(char *s, char *accept)
+int _isalpha(int c)
 {
-	return (0);
+	return (c);
 }
