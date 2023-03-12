@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isnumerical - main entry point
+ * is_numerical - main entry point
  * @n: integer
  * Return: Always 0
  */
