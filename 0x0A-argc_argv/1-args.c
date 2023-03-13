@@ -13,10 +13,9 @@ int main(int argc, char *argv[])
 	(void)argv;
 
 	for (i = 0; i < argc; i++)
-		{
-			printf("%d", i);
-			printf("\n");
-		}
-	
-	return (0);
+	{
+		printf("%d", i);
+		printf("\n");
+	}
+return (0);
 }
