@@ -8,9 +8,15 @@
  */
 int main(int argc, char *argv[])
 {
+	int i;
+
 	(void)argv;
 
-	printf("%d", argc);
-	printf("\n");
+	for (i = 0; i < argc; i++)
+		{
+			printf("%d", i);
+			printf("\n");
+		}
+	
 	return (0);
 }
