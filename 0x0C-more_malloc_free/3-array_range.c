@@ -3,7 +3,7 @@
 
 /**
  * array_range - a function that creates an array of integers.
- * @min: minimum 
+ * @min: minimum
  * @max: max
  * Return: NULL if malloc fails
  */
