@@ -4,7 +4,7 @@
 /**
  * sum_them_all - adds all arguments
  * @n: number of arguments
- * Return: sum 
+ * Return: sum
  * On error, Return 0
  */
 
